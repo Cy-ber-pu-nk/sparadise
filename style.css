@@ -1,0 +1,469 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: rgb(31, 27, 27);
+    color: white;
+   
+}
+#navname{
+    display: inline-block;
+    margin-left: 120px;
+    font-size: 18px; 
+}
+
+.imgtextcontainer img{
+    max-width: 100%;
+   
+}
+
+.navlink{
+    display: inline-block;
+    margin-left: 250px;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.icon{
+    display: inline-block;
+    margin-left: 220px;
+}
+
+.icon i{
+     margin: 20px;
+     font-size: 18px; 
+}
+
+#content{
+    background-color: rgb(32, 30, 30); 
+     padding-bottom: 95px; 
+}
+
+.contentword i{
+    color: white;
+    font-size: 25px;
+    margin-left: 12%;  
+}
+
+#Start{
+     display: inline; 
+}
+
+.contentword{
+    float: left;
+    color: white;
+    padding: 5%;
+}
+
+.contentword h1{
+    font-size: 50px;
+    margin-bottom: 20px; 
+}
+
+.contentword button{
+    padding: 3%;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 25px;
+    font-size: 12px;
+    width: 25%;
+}
+#content img{
+    position: relative;
+    top: 100px;
+    width: 45%;
+    margin-left: 14%;
+}
+
+.contentword h4{
+    color: goldenrod;
+    font-family: sans-serif;
+}
+
+.headingword{
+    clear: both;
+    margin-top: 50px;
+    padding: 2%;
+}
+
+.headingword h3{
+    color: goldenrod;
+}
+
+.headingword h1{
+    font-size: 50px;
+}
+ 
+.float1{
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+    padding: 2%;
+}
+
+.float1 i{
+    background-color: goldenrod;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.float h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.float1 p{
+    margin-top: 10px;
+    font-size: medium; 
+}
+
+
+#headingword{
+    font-size: 17px; 
+    padding: 4%;   
+} 
+
+#headingword h3{
+    color: goldenrod;
+}
+
+#headingword h1{
+    font-size: 50px;
+}
+
+#headingword p{
+    display: inline-block;
+
+} 
+
+#headingword i{
+    padding: 1%;
+    background-color: goldenrod;
+    border-radius: 70px;
+    margin: 5%; 
+    position: relative; 
+    right: 5%; 
+    
+}  
+
+#imgtextcontainer img{
+    float: left;
+    height: 411px;
+    /* width: 100%; */
+    
+}
+
+.text-float{
+    font-size: 45px;
+    padding-top: 12%;
+    text-align: center;
+}
+
+#choose{
+    color:goldenrod;
+    font-size: 20px;
+}
+
+#imgtextcontainer {
+    margin-top: 15%;
+    background-color: #191919;  
+    color: white;
+}
+
+
+#word img{
+    float: right; 
+    height: 400px; 
+    width: 50%;
+}
+#word{
+    overflow: hidden;
+    clear: both;
+}
+
+#thirdcontent{
+    font-size: 40px; 
+    float:left;
+    padding: 4%; 
+    
+} 
+
+/* .contentword h4{
+    color: goldenrod;
+    font-size: 15px;
+    
+} */
+
+#thirdcontent p{
+    font-size: 20px; 
+    
+}
+ 
+.second-heading h1{
+    font-size: 55px;
+     clear: both; 
+    text-align: center;
+    
+}
+.image-container img{
+    float: left;
+    width: 50%;
+     padding-left: 10px;  
+    
+}
+.image-container2 img{
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+}
+
+#services {
+    overflow: hidden;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#services h1{
+    font-size: 50px;
+}
+  
+#services .same {
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  
+}
+ 
+.same p {
+    width: 100%;
+}
+
+.same h3{
+    font-size: 40px;
+}
+
+  
+#services img {
+    width: 100%;
+
+}
+
+.content1{
+    float: right;
+    color: white;
+    padding: 5%;
+}
+
+.con-but button{
+    border-radius: 50px;
+    background-color: goldenrod;
+    border:none;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+#separate{
+   background-color: black;
+   border: 1px solid white;  
+}
+
+
+#open-section{
+    background-color:#191919;
+    color: white; 
+}
+
+.close-section h1{
+    font-size: 40px;
+
+}
+
+.img-sec img{
+    height: 300px;
+    border-radius: 12px;
+    position: relative;
+    left: 20%;
+    width: 38%;
+    
+}
+ 
+.close-section{
+   padding: 100px;
+   float: left;
+  
+}
+
+
+.formgroup button{
+ background-color:gold;   
+ height: 30px;
+ border: none;
+ position: relative;
+ right: 82px;
+ color: whitesmoke;
+
+}
+
+#p-sec{
+    color: gold;  
+}
+
+.formgroup input[type=email]{
+    padding: 8px;
+    width: 76%;
+    outline: none;
+
+}
+
+
+
+
+/* media queries */
+ 
+@media (max-width: 1200px) {
+.navlink{
+    max-width: 100%;
+    margin-left: 50px;
+}
+.icon{
+    margin-left: 100px;
+}
+.navname{
+    margin-left: 100px;
+}
+.content img{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;   
+}
+.float1{
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    
+}
+.word img{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    background-color: red;
+    
+}
+
+.content img{
+    width: 100%;
+    margin-left: 1px;
+    
+}
+.iconsgroup{
+    width: 100%;
+    margin-left: 1px;
+    background-color: white;
+    text-align: center;
+    color: red;
+    background-color: red;
+    
+}
+.header{
+    width: 100%;
+    margin-left: 1px;
+    background-color: white;
+    text-align: center;
+    color: red;
+    background-color: gold;
+    
+}
+.navlink li a{
+    color: red;
+}
+.navname a{
+    color: red;
+}
+.imgtextcontainer img{
+    width: 100%;
+}
+}
+@media (max-width: 250px) {
+    /* .header {
+          width: 100%;
+    
+        } */
+    .navlink{
+        max-width: 100%;
+        margin-left: 50px;
+    }
+    .icon{
+        margin-left: 200px;
+    }
+    .navname{
+        margin-left: 100px;
+    }
+    .content img{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .iconsgroup{
+        background-color: red;
+        max-width: 100%;
+    }
+    .iconsgroup p h1{
+        background-color: red;
+        max-width: 100%;
+        color: green;
+    }
+    }
+    @media (max-width: 150px) {
+        /* .header {
+              width: 100%;
+        
+            } */
+        .navlink{
+            max-width: 100%;
+            margin-left: 50px;
+        }
+        .icon{
+            margin-left: 100px;
+        }
+        .navname{
+            margin-left: 100px;
+        }
+        .content img{
+            max-width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            /* margin-top: 50%; */
+            
+        }
+        .word img{
+                width: 100%;
+                background-color: red;
+        }
+        }
+    
+    
+
+    
+
+
+
+ 
+
